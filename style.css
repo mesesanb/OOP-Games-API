@@ -1,0 +1,42 @@
+body, html {
+    height: 100%;
+  }
+
+  
+
+ul {
+    list-style-type: none;
+
+  }
+  li {
+      padding : 1vw;
+
+    
+  }
+
+  li img{
+      height: 3vw;
+  }
+  ul#listOfGames  button  {
+      display: inline;
+      float: right;
+      
+  }
+
+.single_game {
+    
+  top: 50%;
+  left: 20%;
+}
+#gameDescription{
+    height:20vh;
+    resize: none; /*you cannot change the size  of textarea*/
+    text-align: left; 
+}
+
+.btn-save{
+    float: right;
+}
+input {
+    width: max-content;
+}
